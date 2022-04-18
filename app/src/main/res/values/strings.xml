@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">hotel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Management Hotel</string>
+    <string name="nav_header_subtitle">daiduonga6k16.1502@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_all">Tất cả</string>
+
+    <string name="menu_home">Trang chính</string>
+    <string name="menu_thue_tra">Thuê - trả phòng</string>
+    <string name="menu_datphong">Đặt phòng</string>
+    <string name="menu_quanlykho">Quản lý kho</string>
+    <string name="menu_quanlythuchi">Quản lý thu chi</string>
+     <string name="title_home">Trang chủ</string>
+    <string name="title_phongdoi">Phòng đôi</string>
+    <string name="title_phongdon">Phòng đơn</string>
+</resources>
