@@ -9,16 +9,26 @@
         android:id="@+id/nav_home"
         android:name="com.example.hotel.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_trangchu" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_thuetra"
         android:name="com.example.hotel.ui.gallery.GalleryFragment"
         android:label="@string/menu_thue_tra"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_datphong"
+        android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_datphong"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_quanlykho"
+        android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_datphong"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_quanlythuchi"
         android:name="com.example.hotel.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_datphong"
         tools:layout="@layout/fragment_slideshow" />

@@ -12,7 +12,9 @@
     <string name="menu_datphong">Đặt phòng</string>
     <string name="menu_quanlykho">Quản lý kho</string>
     <string name="menu_quanlythuchi">Quản lý thu chi</string>
-     <string name="title_home">Trang chủ</string>
+    <string name="title_home">Trang chủ</string>
     <string name="title_phongdoi">Phòng đôi</string>
     <string name="title_phongdon">Phòng đơn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
