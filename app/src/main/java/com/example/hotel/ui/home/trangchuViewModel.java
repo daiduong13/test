@@ -1,16 +1,16 @@
-package com.example.hotel.ui.gallery;
+package com.example.hotel.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
+public class trangchuViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public trangchuViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("fragment thuê trả phòng");
+        mText.setValue("fragment trang chủ");
     }
 
     public LiveData<String> getText() {

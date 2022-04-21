@@ -9,21 +9,23 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+
 import com.example.hotel.databinding.FragmentTrangchuBinding;
 
-public class HomeFragment extends Fragment {
+public class trangchuFragment extends Fragment {
 
     private FragmentTrangchuBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        trangchuViewModel homeViewModel =
+                new ViewModelProvider(this).get(trangchuViewModel.class);
 
         binding = FragmentTrangchuBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
+        final TextView textView = binding.textHome1;
+
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
